@@ -1,0 +1,56 @@
+What is NestJS?
+Nest.js is a Node.js framework designed for crafting efficient, reliable, and scalable
+server-side applications.
+
+
+Problem solved by NestJS
+It addresses maintianing consistancy by  incorporating software engineering design patterns like SOLID and
+Dependency Injection.
+
+The structured way of having the codebase helps us in focusing on features rather than freedom on implementing project structure.
+
+
+Built on top of Express and TypeScript, it adopts Node.js and
+Angular design patterns to provide a cohesive development experience.
+
+The framework’s architecture embraces decorators and dependency injection, patterns
+borrowed from Angular, to facilitate better code organization and reusability.
+
+
+How was NestJS created?
+1.) The architecture came about as an inspiration from Angular which is a frontend platform.
+2.) Transferring this idea to the server side allowed for the broad utilization of a familiar architecture that incorporates Nest. js-specific elements like
+modules, dependency injection, providers, and custom decorators.
+3.) helps in easier transition for developers familiar with Angular framework.
+
+Why use NestJS?
+If one wants to build a server-side application with TypeScript and nodejs. Next js is the best bet.
+Nest.js employs strong typing and decorators.
+also employs Elements intrinsic toTypeScript, thus aligning closely with TypeScript principles.
+
+It also supports Dependency Injection out-of-the-box, encouraging a modular, scalable architecture.
+
+It also supports developers who have build client side applications using Angular to migrate with less difficultlearning curve.
+
+Nest.js enables you to construct various backend services like as follows
+1.) from RESTful APIs
+2.) GraphQL endpoints 
+3.) MVC applications
+4.) WebSockets
+
+It can be used for builing large scale applications using monolithic and microservices architecture seemlessly
+
+Nest.js provides native integrations with a host of external tools like Mongoose for
+MongoDB, TypeORM for various databases including Postgres, and many more
+
+Benefits:
+1.) Easier learning curve for developers with experience with Angular. Seemless transition from frontend to backend.
+2.) NestJS developer principles are easy to understand and developer friendly
+3.) Benefit from the framework’s focus on good architecture and fast
+development.
+
+Use Cases
+1.) Building microservices
+2.) Buidling API with RESTful and GraphQL architectures
+3.) WebSocket programming
+
