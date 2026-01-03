@@ -1,0 +1,20 @@
+Creating a Nestjs Project
+Before creating a nestjs project it is necessary to install nodejs globally
+
+Steps in creating a nestjs project
+
+1. Install the nest-cli globally
+npm install -g @nestjs/cli
+
+2. Creating a new NestJS project
+nest new [name of the project]
+
+3. Start the project
+The project with the [name of project] name will be created.
+Now navigate to the project in your file directort and start the server by the following cmd
+
+npm run start:dev
+
+The server will start with localhost:3000
+
+
