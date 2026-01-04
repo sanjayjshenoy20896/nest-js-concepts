@@ -1,0 +1,27 @@
+Modules in nestjs:
+A module serves as the foundational building block of a Nest.js application, adhering
+to the Nest.js principle of modularity for better code organization
+
+Each Module
+encapsulates Providers, Controllers, Imports, and Exports, acting as a cohesive unit of
+related functionality.
+
+Providers:(services, factories, or repositories):
+They encapsulate business logic and can be injected into controllers or other
+services.
+
+Controllers:
+it serves the function of handling incoming HTTP requests and sending
+responses back to the client
+
+Import:
+It is an array that specifies the external modules needed for the current
+module, enabling code reusability and separation of concerns.
+
+Exports:
+utilized to make services available to other modules
+
+application will contain a Root Module, which is specific to the Nest.js framework. 
+The Root Module serves as the entry point and is responsible for instantiating controllers, providers, and other core elements of the application.
+this architecture follows the “Module Isolation” principle, ensuring that the
+application is organized into distinct functional or feature-based modules.
