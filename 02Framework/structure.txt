@@ -1,0 +1,52 @@
+Project Structure:
+Nest.js serves the src folder as the location where the application source code exists.
+This helps in better organisation of files and seperation of concerns.
+
+Overview:
+Within the src folder, the main.ts file serves as the entry point of your Nest.js application. 
+This file is responsible for bootstrapping the application, utilizing Nest.js’s core function NestFactory to create an instance of your Nest application
+
+Nest factory function:
+import { NestFactory } from "@nestjs/core";
+import { AppModule } from "./app.module";
+async function bootstrap() {
+    // create a bootstrapping app with app module before assigning a port to listen to requsts
+    const app = await NestFactory.create(AppModule);
+    await app.listen(3000);
+}
+bootstrap();
+
+NestFactory is pivotal for bootstrapping the application, setting up the dependency injection system, and
+initializing modules. 
+
+Basic and common components of a project Structure
+app.controller.ts:
+This is a basic controller consisting of one route.
+This basically acts as a gateway between client and server.
+It is responsible for request handling and response handling for any request.
+
+app.controller.spec.ts: 
+This file contains unit tests for the controller, adhering to the Nest.js focus on test-driven development (TDD).
+
+app.module.ts:
+This is the root module of the application, which imports other
+modules and providers. Nest.js modules act as organizational units and follow
+the Single Responsibility Principle.
+
+app.service.ts: A basic service file with a single method. In Nest.js, services
+encapsulate business logic and can be injected into controllers, promoting
+Dependency Injection and the Separation of Concerns.
+
+nest-cli.json: Utilized for Nest.js-specific configurations, this file allows
+customization of compiler options, assets, and other settings.
+
+.prettierrc: This file is used for configuring Prettier, aiding in code formatting and
+style consistency within the Nest.js project.
+
+tsconfig.json: This configuration file is for TypeScript and determines how the
+TypeScript compiler will behave. This aligns with Nest.js’s use of TypeScript for
+strong typing and better code quality.
+
+
+
+
